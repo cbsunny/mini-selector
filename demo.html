@@ -17,15 +17,15 @@
         
         <div>
             <p class="bbb aaa eee">Para<span>Span</span></p>
-            <span></span>
+            <span id='sunny'>sunny</span>
+            <p class="ccc">hello world</p>
         </div>
             
         <!-- </body content> -->
-        
         <script type="text/javascript">
         try {
-            
-            alert(mini('div > p').length);
+            mini('div > p');
+            // alert(mini('div > p').length);
         } catch(e) {
             alert(e.message);
         }
